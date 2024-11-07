@@ -1,12 +1,15 @@
 <h1>**🎬 YouTube Clone - Responsive & Precise**</h1>
 Welcome to the YouTube Clone project! 🌟 This application is designed with precision and responsiveness in mind, ensuring an optimal viewing experience across all devices—from mobile 📱 to tablet 📒 and desktop 💻.
 
-__🌟 Key Features:__
-    -> Responsive Across All Devices 📏 - Built with HTML, CSS, Tailwind CSS, and React for a seamless experience on any screen size.
-    -> YouTube API Integration 🔗 - Leverages Google Cloud's YouTube API for reliable and up-to-date video data.
-    -> Dynamic UI 🎨 - Clean and interactive interface designed for an immersive viewing experience.
-    -> Optimized Data Display 📊 - Only the most relevant video data shown, keeping your experience clutter-free and fast.
-    -> Fast and Lightweight ⚡ - Built with speed and efficiency in mind, so you can browse with minimal load times.
+<h3>__🌟 Key Features:__</h3>
+<ul>
+    <li>Responsive Across All Devices 📏 - Built with HTML, CSS, Tailwind CSS, and React for a seamless experience on any screen size.</li>
+    <li>YouTube API Integration 🔗 - Leverages Google Cloud's YouTube API for reliable and up-to-date video data.</li>
+    <li>Dynamic UI 🎨 - Clean and interactive interface designed for an immersive viewing experience.</li>
+    <li>Optimized Data Display 📊 - Only the most relevant video data shown, keeping your experience clutter-free and fast.</li>
+    <li>Fast and Lightweight ⚡ - Built with speed and efficiency in mind, so you can browse with minimal load times.</li>
+</ul>
+
     
 __📐 Tech Stack:__
     -> Frontend: HTML, CSS, Tailwind CSS, React
