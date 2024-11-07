@@ -23,26 +23,35 @@ Welcome to the YouTube Clone project! 🌟 This application is designed with pre
     <li>src/pages - Core pages like Home,, Player</li>
     <li>/src/Assets - Contains images and icons</li>
 </ul>
-    
-<h2>**🚀 Quick Start Guide**</h2>
-
+<h2>🚀 Quick Start Guide</h2>
     <h4><u>STEP 1:Clone the Repository</u></h4>
-    Copy code
+    <p>Copy code:</p>
+    <copy>   
         git clone https://github.com/yourusername/youtube-clone.git
         cd youtube-clone
+    </copy>
     
-    STEP 2:Install Dependencies
-    //Refer tailwind css documentation to start tailwind in our project
-    Copy code
+    <h4><u>STEP 2:Install Dependencies</u></h4>
+    <p>//Refer tailwind css documentation to start tailwind in our project</p>
+    <p>Copy code:</p>
+    <copy>   
         npm install react-icons
         npm install react-router-dom
         npm install react-moment moment
-        
-    STEP 3:Configure the YouTube API Key
-    Create a .env file in the root directory and add your YouTube API key:
-        REACT_APP_YOUTUBE_API_KEY=YOUR_API_KEY
-
-    STEP 4: Run the App
-    Copy code
+    </copy>
+    
+    <h4><u>STEP 3:Configure the YouTube API Key</u></h4>
+    <p>Create a .env file in the root directory and add your YouTube API key:</p>
+    <p>Copy code:</p>
+    <copy>REACT_APP_YOUTUBE_API_KEY=YOUR_API_KEY</copy>
+    
+    <h4><u>STEP 4: Run the App</u></h4>
+    <p>Copy Code</p>
+    <copy>   
         npm start
-        The app should now be up and running at http://localhost:3000 🎉
+    </copy>
+    <p>The app should now be up and running at http://localhost:3000 🎉</p>
+
+    
+
+  
