@@ -1,4 +1,4 @@
-**🎬 YouTube Clone - Responsive & Precise**
+<h1>**🎬 YouTube Clone - Responsive & Precise**</h1>
 Welcome to the YouTube Clone project! 🌟 This application is designed with precision and responsiveness in mind, ensuring an optimal viewing experience across all devices—from mobile 📱 to tablet 📒 and desktop 💻.
 
 __🌟 Key Features:__
