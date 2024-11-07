@@ -26,12 +26,13 @@ Welcome to the YouTube Clone project! 🌟 This application is designed with pre
     <h4><u>STEP 1:Clone the Repository</u></h4>
     <p>Copy code:</p>
     <copy>   
-        git clone https://github.com/yourusername/youtube-clone.git
+        git clone https://github.com/thenmugi/youtube-clone.git
         cd youtube-clone
     </copy>
     <h4><u>STEP 2:Install Dependencies</u></h4>
     <p>//Refer tailwind css documentation to start tailwind in our project</p>
     <p>Copy code:</p>
+    ```bash
     <copy>   
         npm install react-icons
         npm install react-router-dom
