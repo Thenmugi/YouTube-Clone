@@ -11,18 +11,22 @@ Welcome to the YouTube Clone project! 🌟 This application is designed with pre
 </ul>
 
     
-__📐 Tech Stack:__
-    -> Frontend: HTML, CSS, Tailwind CSS, React
-    -> Backend / API: Google Cloud YouTube API
+<h3>__📐 Tech Stack:__</h3>
+<ul>
+    <li>Frontend: HTML, CSS, Tailwind CSS, React</li>
+    <li>Backend / API: Google Cloud YouTube API</li>
+</ul>ul>
     
-__🛠️ Project Structure:__
-    -> /src/components - Contains the reusable components (e.g., VideoPlayer, Sidebar, Navbar)
-    -> /src/pages - Core pages like Home,, Player
-    -> /src/Assets - Contains images and icons
+<h3>__🛠️ Project Structure:__</h3>
+<ul>
+    <li>/src/components - Contains the reusable components (e.g., VideoPlayer, Sidebar, Navbar)</li>
+    <li>src/pages - Core pages like Home,, Player</li>
+    <li>/src/Assets - Contains images and icons</li>
+</ul>
     
-**🚀 Quick Start Guide**
+<h2>**🚀 Quick Start Guide**</h2>
 
-    STEP 1:Clone the Repository
+    <h4><u>STEP 1:Clone the Repository</u></h4>
     Copy code
         git clone https://github.com/yourusername/youtube-clone.git
         cd youtube-clone
