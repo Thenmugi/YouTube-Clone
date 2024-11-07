@@ -6,11 +6,11 @@ import { CgProfile } from "react-icons/cg";
 import { FiMenu } from "react-icons/fi";
 import Youtube from '../Assets/youtube.png'
 
-const Navbar = () => {
+const Navbar = ({className,setHidenav}) => {
   return (
-    <div className='p-6 flex justify-between h-20 w-full  '>
+    <div className={`${className}`} >
         <div className="nav-left flex  flexgap-1 justify-center items-center">
-            <FiMenu className='h-8 w-8'/>
+            <FiMenu className='h-8 w-8 cursor-pointer' onClick={()=>setHidenav((prev)=>!prev)}/>
             <img src={Youtube} alt='youtube icon ' className='h-20 w-32' ></img>
         </div>
         <div className="nav-middle flex items-center justify-center flex-1">
@@ -20,9 +20,9 @@ const Navbar = () => {
             </div>
         </div>
         <div className="nav-right flex gap-6">
-            <FiVideo className='h-7 w-7'/>
-            <FaRegBell className='h-7 w-7'/>
-            <CgProfile className='h-7 w-7'/>
+            <FiVideo className='h-7 w-7 cursor-pointer'/>
+            <FaRegBell className='h-7 w-7 cursor-pointer'/>
+            <CgProfile className='h-7 w-7 cursor-pointer'/>
         </div>
     </div>
   )
