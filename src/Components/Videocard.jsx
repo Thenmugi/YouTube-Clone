@@ -8,7 +8,7 @@ const Videocard = ({category}) => {
     const [data,setData]=useState([])
     const api_key='AIzaSyCzc7u2HtQapsIVOFWsEJ-xP7rm9fRaB-8'
     const fetchdata=async ()=>{
-        const response =await fetch(`https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=80&regionCode=IN&videoCategoryId=${category}&key=${api_key}`)
+        const response =await fetch(`https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=80&regionCode=IN&videoCategoryId=${category}&relevanceLanguage=ta&key=${api_key}`)
         const result=await response.json()
         if(result.items){
             setData(result.items)
@@ -17,9 +17,12 @@ const Videocard = ({category}) => {
             setData([])
         }
     }
+
+
     useEffect(()=>{
         fetchdata()
     },[category])
+    
     const views_convertor=(value)=>{
         if(value>1000000){
             return Math.floor(value/1000000)+"M"
@@ -32,12 +35,12 @@ const Videocard = ({category}) => {
         }
     }
   return (
-    <div className='grid grid-cols-4 gap-4 w-full overflow-y-auto'>
+    <div className='grid gap-4 w-full overflow-y-auto  md:grid-cols-2 lg:grid-cols-4 '>
         {
             data.map((item,index)=>(
-                <Link key={index} className='flex flex-col  gap-1 ' style={{width:350,height:320,fontFamily:'sans-serif'}} to={`/player/${category}/${item.id}`}>
+                <Link key={index} className='flex flex-col  gap-1 m-auto md:m-0' style={{width:350,height:320,fontFamily:'sans-serif'}} to={`/player/${category}/${item.id}`}>
                     <img src={item.snippet.thumbnails.medium.url}  className='rounded-xl w-full h-3/5' alt={item.snippet.channelTitle}></img>
-                    <div className='text-left '>
+                    <div className='text-left flex gap-2'>
                         <p >{item.snippet.title}</p>
                     </div>
                     <div className='flex text-left text-gray-500 text-sm'>

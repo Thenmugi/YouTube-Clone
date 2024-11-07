@@ -18,7 +18,7 @@ import { CgProfile } from "react-icons/cg";
 const Sidebar = ({hidenav,category,setCategory}) => {
 
   return (
-    <div>
+    <div className='hidden lg:block md:block'>
       {hidenav===false?(
         <div className={`h-auto flex flex-col gap-4 ml-6 cursor-pointer`}  >
           <div className='flex flex-col hover:bg-slate-300 rounded-md' onClick={()=>setCategory(0)}  style={{backgroundColor:category===0?"grey":"white"}} >

@@ -7,9 +7,10 @@ import { FiMenu } from "react-icons/fi";
 import Youtube from '../Assets/youtube.png'
 
 const Navbar = ({className,setHidenav}) => {
+
   return (
     <div className={`${className}`} >
-        <div className="nav-left flex  flexgap-1 justify-center items-center">
+        <div className="nav-left flex  gap-1 justify-center items-center">
             <FiMenu className='h-8 w-8 cursor-pointer' onClick={()=>setHidenav((prev)=>!prev)}/>
             <img src={Youtube} alt='youtube icon ' className='h-20 w-32' ></img>
         </div>
@@ -19,7 +20,7 @@ const Navbar = ({className,setHidenav}) => {
                 <IoIosSearch className='h-7 w-7'/>
             </div>
         </div>
-        <div className="nav-right flex gap-6">
+        <div className="nav-right flex  gap-1 md:gap-3">
             <FiVideo className='h-7 w-7 cursor-pointer'/>
             <FaRegBell className='h-7 w-7 cursor-pointer'/>
             <CgProfile className='h-7 w-7 cursor-pointer'/>
